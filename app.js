@@ -1,3 +1,4 @@
+// activating
 document.querySelector('#push').onclick = function() {
     if (document.querySelector('#newtask input').value.length == 0) {
         alert("Please enter a Task")
@@ -16,7 +17,7 @@ document.querySelector('#push').onclick = function() {
             </button>
         </div>
         `;
-        // delete button
+        // delete button activating
         var current_tasks = document.querySelectorAll(".delete");
         for(var i=0; i<current_tasks.length; i++) {
             current_tasks[i].onclick = function() {
