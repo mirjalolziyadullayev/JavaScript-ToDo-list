@@ -22,6 +22,12 @@ body {
     position: relative;
     padding: 30px 20px;
 }
+#newtask h4 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #939697;
+}
 #newtask input {
     width: 75%;
     height: 45px;
